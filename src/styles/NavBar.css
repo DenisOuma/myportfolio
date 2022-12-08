@@ -1,0 +1,38 @@
+.prime-container {
+	background-color: #3c3c3c;
+}
+.nav-bar {
+	width: 99%;
+	margin: 0 auto;
+}
+
+.flex {
+	align-items: center;
+	justify-content: space-between;
+	/* width: 90%; */
+}
+.nav-bar-close-options {
+	/* width: %; */
+	display: flex;
+	/* background-color: red; */
+}
+.nav-options {
+	align-items: center;
+	margin-left: 20px;
+	/* background-color: red; */
+}
+.nav-options .nav-option {
+	font-size: 14px;
+	margin-right: 9px;
+	padding: 2px;
+}
+.nav-bar-close-options .close-option {
+	height: 12px;
+	width: 12px;
+	background-color: green;
+	justify-content: space-between;
+	display: flex;
+	margin-left: 10px;
+	border-radius: 50%;
+	cursor: pointer;
+}

@@ -8,7 +8,9 @@ body {
 	background-color: #1e1e1e;
 	color: #cccccc;
 }
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
