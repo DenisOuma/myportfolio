@@ -108,7 +108,7 @@
 	display: flex;
 	align-items: center;
 	padding-left: 50px !important;
-	font-size: 13px;
+	font-size: 15px;
 	padding: 5px 0 5px;
 
 	/* justify-content: center; */
@@ -119,4 +119,5 @@
 }
 .options-menu > p {
 	margin-left: 20px;
+	font-size: 14px;
 }
