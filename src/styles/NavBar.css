@@ -18,13 +18,14 @@
 }
 .nav-options {
 	align-items: center;
-	margin-left: 20px;
+	margin-left: 15px;
 	/* background-color: red; */
 }
 .nav-options .nav-option {
 	font-size: 14px;
 	margin-right: 9px;
 	padding: 2px;
+	cursor: pointer;
 }
 .nav-bar-close-options .close-option {
 	height: 12px;
@@ -35,4 +36,35 @@
 	margin-left: 10px;
 	border-radius: 50%;
 	cursor: pointer;
+}
+/* styling the sidebar menu */
+.side-bar-meny {
+	background-color: #333333;
+	width: 3%;
+	height: 95vh;
+}
+.icon-side-bar {
+	height: 35px;
+	width: 35px;
+	margin: 0 auto;
+	padding-top: 10px;
+	cursor: pointer;
+	/* padding: 10px; */
+}
+.hover-effect:hover {
+	border-left: 2px solid #fff;
+	height: 40px;
+}
+.bottom-navbar {
+	display: flex;
+	align-items: center;
+	background-color: #007acc;
+}
+.left-info {
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+}
+.info {
+	margin-left: 10px;
 }
