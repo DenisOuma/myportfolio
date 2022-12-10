@@ -19,7 +19,7 @@ function FooterBottom() {
 				<div className="info">Tailwind</div>
 			</div>
 			<div className="right-info">
-				<div className="info"></div>
+				<div className="info">CSS</div>
 				<div className="info">UTF-8</div>
 				<div className="info">Port: 300</div>
 			</div>
