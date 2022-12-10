@@ -91,3 +91,32 @@
 	background-color: #252526;
 	width: 13%;
 }
+.navigation-menue > h2 {
+	font-weight: 800;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.drop-open-menu {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.options-menu {
+	display: flex;
+	align-items: center;
+	padding-left: 50px !important;
+	font-size: 13px;
+	padding: 5px 0 5px;
+
+	/* justify-content: center; */
+}
+.options-menu:hover {
+	background-color: #37373d;
+	cursor: pointer;
+}
+.options-menu > p {
+	margin-left: 20px;
+}
