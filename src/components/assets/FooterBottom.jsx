@@ -18,7 +18,11 @@ function FooterBottom() {
 				<div className="info">Material-Ui</div>
 				<div className="info">Tailwind</div>
 			</div>
-			<div className="right-info"></div>
+			<div className="right-info">
+				<div className="info"></div>
+				<div className="info">UTF-8</div>
+				<div className="info">Port: 300</div>
+			</div>
 		</div>
 	);
 }

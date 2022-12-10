@@ -42,6 +42,7 @@
 	background-color: #333333;
 	width: 3%;
 	height: 95vh;
+	position: relative;
 }
 .icon-side-bar {
 	height: 35px;
@@ -51,18 +52,33 @@
 	cursor: pointer;
 	/* padding: 10px; */
 }
+.position-bottom {
+	position: absolute;
+	bottom: 0;
+	/* width: 100%; */
+	justify-content: center;
+	margin-bottom: 10px;
+	margin-left: 15%;
+}
 .hover-effect:hover {
 	border-left: 2px solid #fff;
 	height: 40px;
 }
 .bottom-navbar {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	background-color: #007acc;
 }
 .left-info {
 	display: flex;
 	align-items: center;
+	font-size: 13px;
+}
+.right-info {
+	display: flex;
+	align-items: center;
+	margin-right: 10px;
 	font-size: 13px;
 }
 .info {

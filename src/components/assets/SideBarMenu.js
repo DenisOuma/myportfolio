@@ -8,6 +8,13 @@ function SideBarMenu() {
 			<div className="hover-effect">
 				<Icon className="icon-side-bar" icon="fluent-mdl2:copy" color="white" />
 			</div>
+			<div className="position-bottom hover-effect">
+				<Icon
+					className="icon-side-bar"
+					icon="iconoir:profile-circled"
+					color="gray"
+				/>
+			</div>
 		</div>
 	);
 }
