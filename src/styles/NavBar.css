@@ -84,3 +84,10 @@
 .info {
 	margin-left: 10px;
 }
+.tagle-open {
+	display: flex;
+}
+.navigation-menue {
+	background-color: #252526;
+	width: 13%;
+}
