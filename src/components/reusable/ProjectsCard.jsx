@@ -5,7 +5,7 @@ function ProjectsCard() {
 		<div className="project-card">
 			<div className="image-card">
 				<img
-					src="https://www.rajsavaliya.com/_next/image?url=%2Fayethumb.jpg&w=640&q=75"
+					src="https://github.com/DenisOuma/team-project/raw/main/images/contacts.png"
 					alt=""
 				/>
 			</div>
