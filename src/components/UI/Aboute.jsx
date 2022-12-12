@@ -1,9 +1,51 @@
 import React from "react";
+import gif from "./video_new.gif";
+import { Link } from "react-router-dom";
+import { Icon } from "@iconify/react";
 
 function Aboute() {
+	const social = [
+		{
+			link: "https://www.linkedin.com/in/denisouma/",
+			icon: "logos:linkedin-icon",
+		},
+		{
+			link: "https://github.com/DenisOuma",
+			icon: "logos:github-icon",
+		},
+		{
+			link: "fa:twitter-square",
+			icon: "fa:twitter-square",
+		},
+	];
+
 	return (
-		<div>
-			<h1>jlisudjflgiusdgfliu</h1>
+		<div className="about-container">
+			<div className="container-info">
+				<div className="description-left">
+					<h1>Hi all, I'm Denis Ouma</h1>
+					<p>
+						I'm passionate Front-End engineer with comprehensive skills in
+						NodeJS and React, Ruby on Rails. Proficient in Javascript and
+						Python/Flask. Also a fast and dedicated learner with a growth
+						mindset, constantly looking to develop new skills and expand
+						technical knowledge.
+					</p>
+
+					<div className="links-socila">
+						{social.map((link) => (
+							<div className="socila-media">
+								<a href={link.link} className="icon-name">
+									<Icon icon={link.icon} height="40px" color="#1a8cd8" />
+								</a>
+							</div>
+						))}
+					</div>
+				</div>
+				<div className="description-right">
+					<img src={gif} alt="wfsdf" />
+				</div>
+			</div>
 		</div>
 	);
 }

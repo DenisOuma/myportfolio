@@ -97,6 +97,7 @@
 	font-size: 15px;
 	margin-left: 20px;
 	margin-top: 5px;
+	margin-right: 200px;
 }
 
 .drop-open-menu {
@@ -122,4 +123,47 @@
 .options-menu > p {
 	margin-left: 20px;
 	font-size: 14px;
+}
+
+/* Working on the about section */
+.about-container {
+	/* background-color: red; */
+	width: 70%;
+	/* display: flex; */
+	/* justify-content: center; */
+	margin: 0 auto;
+}
+.container-info {
+	display: flex;
+	/* margin: 0 auto; */
+	margin-top: 50px;
+	align-items: center;
+}
+.description-left {
+	width: 50%;
+}
+.description-right {
+	width: 500px;
+	height: 500px;
+	/* background-color: #007acc; */
+}
+
+.description-right > img {
+	width: inherit;
+	width: 100%;
+}
+.description-left > h1 {
+	font-weight: 800;
+	font-size: 50px;
+	color: #007acc;
+}
+.description-left > p {
+	font-size: 23px;
+}
+.links-socila {
+	display: flex;
+	margin-top: 20px;
+}
+.socila-media {
+	margin-right: 20px;
 }
