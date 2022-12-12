@@ -37,9 +37,9 @@ function Aboute() {
 					<Typewriter
 						words={[
 							"|Product Builder|",
-							"Frontend Engineer;",
-							"Backend Engineer",
-							"Developer",
+							"{Frontend Engineer}",
+							"{Backend Engineer}",
+							"{Developer}",
 						]}
 						loop={100}
 						cursor
@@ -47,7 +47,7 @@ function Aboute() {
 						cursorSize="30px"
 						typeSpeed={70}
 						deleteSpeed={50}
-						delaySpeed={1000}
+						delaySpeed={2000}
 						className="auto-type"
 					/>
 					<p>

@@ -168,9 +168,51 @@
 	margin-right: 20px;
 }
 .auto-type {
-	color: red !important;
+	/* color: red !important; */
 }
 .description-left > span {
 	font-size: 35px;
 	color: aqua;
+}
+
+/* Working on the experience  */
+.experience-container {
+	width: 100%;
+	height: 100%;
+}
+.work-experience {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	/* background-color: red; */
+	text-align: center;
+}
+.experience-container {
+	margin-top: 10px;
+}
+.work-experience > h1 {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 800;
+}
+.work-experience > h2 {
+	color: #007acc;
+	font-size: 25px;
+	font-weight: 800;
+}
+.empty-div {
+	width: 5px;
+	background-color: #fff;
+	height: 1000px;
+	position: absolute;
+	left: 50%;
+}
+.thread-section {
+	height: 80vh;
+	overflow-y: hidden;
+	/* justify-content: center; */
+	width: 100%;
+	/* margin: 0 auto; */
+	background-color: #007acc;
+	position: relative;
 }
