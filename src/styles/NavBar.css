@@ -207,12 +207,36 @@
 	position: absolute;
 	left: 50%;
 }
+
 .thread-section {
 	height: 80vh;
 	overflow-y: hidden;
 	/* justify-content: center; */
 	width: 100%;
 	/* margin: 0 auto; */
-	background-color: #007acc;
+	/* background-color: #007acc; */
 	position: relative;
+}
+.experienc-1 {
+	position: absolute;
+	/* background-color: #333333; */
+	height: 500px;
+	width: 50%;
+	left: 31px;
+	top: 30px;
+	z-index: 1;
+}
+.mohi {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.responsibility {
+	margin-top: 30px;
+	background-image: linear-gradient(to right, #4a00e0, #8e2de2);
+	width: 500px;
+	border-radius: 5px;
+}
+.img-icon > img {
+	border-radius: 50px;
 }
