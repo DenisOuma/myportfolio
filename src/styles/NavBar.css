@@ -90,7 +90,7 @@
 .navigation-menue {
 	background-color: #252526;
 	/* width: 30%; */
-	padding-right: 35px;
+	/* margin-right: 35px; */
 }
 .navigation-menue > h2 {
 	font-weight: 800;
@@ -111,6 +111,7 @@
 	padding-left: 50px !important;
 	font-size: 15px;
 	padding: 3px 0 3px;
+	width: 200px;
 
 	/* justify-content: center; */
 }
