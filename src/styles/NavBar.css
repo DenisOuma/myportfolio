@@ -282,3 +282,43 @@
 	color: #fbbf24;
 	font-weight: 700;
 }
+
+.language-skill {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+.icon-skill {
+	background-color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}
+.language-skill > p {
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 20px;
+	margin-right: 10%;
+}
+
+.skills-data > h3 {
+	font-size: 20px;
+	color: #9ca3af;
+	margin-bottom: 5px;
+}
+.skills-component {
+	width: 75%;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.skills-component > h1 {
+	font-size: 40px;
+	font-weight: 800;
+	color: #007acc;
+}
+.skills-component > p {
+	font-size: 18px;
+	width: 50%;
+}
+.skills-data {
+	margin-top: 20px;
+}
