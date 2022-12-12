@@ -122,7 +122,7 @@ function Skills() {
 	];
 	const tools = [
 		{
-			prof: "Database",
+			prof: "Tools",
 			languages: [
 				{
 					id: 1,
