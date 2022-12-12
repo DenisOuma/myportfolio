@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/NavBar.css";
 import { Icon } from "@iconify/react";
 import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
+import { Link } from "react-router-dom";
 function SideBarMenu() {
 	const [isShown, setIsShown] = React.useState(false);
 	const [about, setAbout] = React.useState(false);
@@ -53,25 +54,36 @@ function SideBarMenu() {
 					</div>
 					{about && (
 						<>
-							<div className="options-menu">
-								<Icon icon="vscode-icons:file-type-html" color="gray" />
-								<p>index.html</p>
-							</div>
-							<div className="options-menu">
-								<Icon icon="vscode-icons:file-type-css" color="gray" />
-								<p>experience.css</p>
-							</div>
-							<div className="options-menu">
-								<Icon icon="vscode-icons:file-type-js-official" color="gray" />
-								<p>skills.js</p>
-							</div>
-							<div className="options-menu">
-								<Icon
-									icon="vscode-icons:file-type-typescript-official"
-									color="gray"
-								/>
-								<p>projects.ts</p>
-							</div>
+							<Link to="/myportfolio/" className="icon-name">
+								<div className="options-menu">
+									<Icon icon="vscode-icons:file-type-html" color="gray" />
+									<p>index.html</p>
+								</div>
+							</Link>
+							<Link to="/myportfolio/experience" className="icon-name">
+								<div className="options-menu">
+									<Icon icon="vscode-icons:file-type-css" color="gray" />
+									<p>experience.css</p>
+								</div>
+							</Link>
+							<Link to="/myportfolio/skills" className="icon-name">
+								<div className="options-menu">
+									<Icon
+										icon="vscode-icons:file-type-js-official"
+										color="gray"
+									/>
+									<p>skills.js</p>
+								</div>
+							</Link>
+							<Link to="/myportfolio/projects" className="icon-name">
+								<div className="options-menu">
+									<Icon
+										icon="vscode-icons:file-type-typescript-official"
+										color="gray"
+									/>
+									<p>projects.ts</p>
+								</div>
+							</Link>
 						</>
 					)}
 					<div className="drop-open-menu">

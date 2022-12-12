@@ -1,5 +1,6 @@
 import React from "react";
 import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
 import "../../styles/NavBar.css";
 function Navbar() {
 	return (
@@ -11,13 +12,41 @@ function Navbar() {
 							<Icon icon="vscode-icons:file-type-vscode" />
 						</div>
 						<div className="flex nav-options">
-							<div className="nav-option">About</div>
-							<div className="nav-option">Experience</div>
-							<div className="nav-option">Skills</div>
-							<div className="nav-option">Projects</div>
-							<div className="nav-option">Contact</div>
-							<div className="nav-option">Hobbies</div>
-							<div className="nav-option">Resume</div>
+							<div className="nav-option">
+								<Link to="/myportfolio/" className="icon-name">
+									About
+								</Link>
+							</div>
+							<div className="nav-option">
+								<Link to="/myportfolio/experience" className="icon-name">
+									Experience
+								</Link>
+							</div>
+							<div className="nav-option">
+								<Link to="/myportfolio/skills" className="icon-name">
+									Skills
+								</Link>
+							</div>
+							<div className="nav-option">
+								<Link to="/myportfolio/skills" className="icon-name">
+									Projects
+								</Link>
+							</div>
+							<div className="nav-option">
+								<Link to="/myportfolio/skills" className="icon-name">
+									Contact
+								</Link>
+							</div>
+							<div className="nav-option">
+								<Link to="/myportfolio/skills" className="icon-name">
+									Hobbies
+								</Link>
+							</div>
+							<div className="nav-option">
+								<Link to="/myportfolio/skills" className="icon-name">
+									Resume
+								</Link>
+							</div>
 						</div>
 					</div>
 					<div className="flex nav-bar-close-options">

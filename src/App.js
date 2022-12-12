@@ -5,6 +5,9 @@ import NavBar from "./components/assets/NavBar";
 import SideBarMenu from "./components/assets/SideBarMenu";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Aboute from "./components/UI/Aboute";
+import Experience from "./components/UI/Experience";
+import Skills from "./components/UI/Skills";
+import Project from "./components/UI/Project";
 
 function App() {
 	return (
@@ -17,6 +20,17 @@ function App() {
 							<SideBarMenu />
 							<Routes>
 								<Route exact path="/myportfolio/" element={<Aboute />} />
+								<Route
+									exact
+									path="/myportfolio/experience"
+									element={<Experience />}
+								/>
+								<Route exact path="/myportfolio/skills" element={<Skills />} />
+								<Route
+									exact
+									path="/myportfolio/projects"
+									element={<Project />}
+								/>
 							</Routes>
 						</div>
 						<FooterBottom />
