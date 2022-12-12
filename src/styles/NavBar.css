@@ -14,12 +14,10 @@
 .nav-bar-close-options {
 	/* width: %; */
 	display: flex;
-	/* background-color: red; */
 }
 .nav-options {
 	align-items: center;
 	margin-left: 15px;
-	/* background-color: red; */
 }
 .nav-options .nav-option {
 	font-size: 14px;
@@ -127,7 +125,6 @@
 
 /* Working on the about section */
 .about-container {
-	/* background-color: red; */
 	width: 70%;
 	/* display: flex; */
 	/* justify-content: center; */
@@ -168,7 +165,6 @@
 	margin-right: 20px;
 }
 .auto-type {
-	/* color: red !important; */
 }
 .description-left > span {
 	font-size: 35px;
@@ -184,7 +180,6 @@
 	width: 80%;
 	height: 100%;
 	margin: 0 auto;
-	/* background-color: red; */
 	text-align: center;
 }
 .experience-container {
@@ -226,6 +221,17 @@
 	left: 31px;
 	top: 30px;
 	z-index: 1;
+}
+.experience-2 {
+	/* right: 0; */
+	position: absolute;
+	/* background-color: red; */
+	width: 50%;
+	bottom: 0;
+	z-index: 1;
+	margin-right: 29px;
+	/* left: ; */
+	right: 0;
 }
 .mohi {
 	display: flex;

@@ -36,10 +36,10 @@ function Aboute() {
 					<h1>Hi all, I'm Denis Ouma</h1>
 					<Typewriter
 						words={[
-							"|Product Builder|",
-							"{Frontend Engineer}",
-							"{Backend Engineer}",
-							"{Developer}",
+							"| Product Builder |",
+							"{ Frontend Engineer }",
+							"{ Backend Engineer }",
+							"{ Developer }",
 						]}
 						loop={100}
 						cursor
