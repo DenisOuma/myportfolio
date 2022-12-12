@@ -62,7 +62,12 @@ function Aboute() {
 						{social.map((link) => (
 							<div className="socila-media" key={link.id}>
 								<a href={link.link} className="icon-name">
-									<Icon icon={link.icon} height="40px" color="#1a8cd8" />
+									<Icon
+										icon={link.icon}
+										height="30px"
+										color="#1a8cd8"
+										style={{ borderRadius: "50px" }}
+									/>
 								</a>
 							</div>
 						))}
