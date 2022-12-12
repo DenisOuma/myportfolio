@@ -202,6 +202,7 @@
 }
 .empty-div {
 	width: 5px;
+	border-radius: 5px;
 	background-color: #fff;
 	height: 1000px;
 	position: absolute;
@@ -236,7 +237,36 @@
 	background-image: linear-gradient(to right, #4a00e0, #8e2de2);
 	width: 500px;
 	border-radius: 5px;
+	border-bottom: 3px solid #fff;
 }
 .img-icon > img {
 	border-radius: 50px;
+	object-fit: cover;
+}
+
+/* Designing component for experience card */
+.company-details {
+	padding: 15px;
+	color: #fff;
+}
+.company-details > h3 {
+	font-weight: 700;
+}
+.company-details > h4 {
+	font-style: italic;
+	/* font-weight: 600; */
+}
+.company-details ul {
+	list-style-type: circle;
+	margin: 15px;
+	text-align: left;
+}
+.company-details ul > li {
+	margin-top: 5px;
+	font-size: 18px;
+}
+.company-details > h5 {
+	text-align: left;
+	color: #fbbf24;
+	font-weight: 700;
 }

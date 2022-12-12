@@ -1,4 +1,5 @@
 import React from "react";
+import MohiAfri from "../reusable/MohiAfri";
 
 function Experience() {
 	return (
@@ -10,10 +11,7 @@ function Experience() {
 					<div className="experienc-1">
 						<div className="mohi">
 							<div className="responsibility">
-								<p>
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-									Cupiditate aperiam eveniet quam, repudiandae ipsa nulla.
-								</p>
+								<MohiAfri />
 							</div>
 							<div
 								className="img-icon"
@@ -22,7 +20,7 @@ function Experience() {
 									width: "60px",
 									backgroundColor: "red",
 									borderRadius: "50%",
-									border: "2px solid #fff",
+									border: "3px solid #fff",
 								}}
 							>
 								<img
