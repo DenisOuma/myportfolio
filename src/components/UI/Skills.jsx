@@ -54,6 +54,10 @@ function Skills() {
 							logo: "vscode-icons:file-type-sass",
 							info: "SASS",
 						},
+						{
+							logo: "logos:rails",
+							info: "Railways",
+						},
 					],
 				},
 			],
