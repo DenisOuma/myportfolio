@@ -1,9 +1,17 @@
 import React from "react";
 import gif from "./video_new.gif";
-import { Link } from "react-router-dom";
 import { Icon } from "@iconify/react";
+import { Typewriter } from "react-simple-typewriter";
 
 function Aboute() {
+	// const handleType = (count: number) => {
+	// 	// access word count number
+	// 	console.log(count)}
+	//   }
+
+	//   const handleDone = () => {
+	// 	console.log(`Done after 5 loops!`)
+	//   }
 	const social = [
 		{
 			link: "https://www.linkedin.com/in/denisouma/",
@@ -24,6 +32,22 @@ function Aboute() {
 			<div className="container-info">
 				<div className="description-left">
 					<h1>Hi all, I'm Denis Ouma</h1>
+					<Typewriter
+						words={[
+							"|Product Builder|",
+							"Frontend Engineer;",
+							"Backend Engineer",
+							"Developer",
+						]}
+						loop={100}
+						cursor
+						cursorStyle="_"
+						cursorSize="30px"
+						typeSpeed={70}
+						deleteSpeed={50}
+						delaySpeed={1000}
+						className="auto-type"
+					/>
 					<p>
 						I'm passionate Front-End engineer with comprehensive skills in
 						NodeJS and React, Ruby on Rails. Proficient in Javascript and

@@ -167,3 +167,10 @@
 .socila-media {
 	margin-right: 20px;
 }
+.auto-type {
+	color: red !important;
+}
+.description-left > span {
+	font-size: 35px;
+	color: aqua;
+}
