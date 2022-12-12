@@ -40,7 +40,7 @@
 /* styling the sidebar menu */
 .side-bar-meny {
 	background-color: #333333;
-	width: 3%;
+	width: 65px;
 	height: 95vh;
 	position: relative;
 }
@@ -89,7 +89,8 @@
 }
 .navigation-menue {
 	background-color: #252526;
-	width: 13%;
+	/* width: 30%; */
+	padding-right: 35px;
 }
 .navigation-menue > h2 {
 	font-weight: 800;
