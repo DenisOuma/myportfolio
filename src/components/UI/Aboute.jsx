@@ -14,6 +14,7 @@ function Aboute() {
 	//   }
 	const social = [
 		{
+			id: 1,
 			link: "https://www.linkedin.com/in/denisouma/",
 			icon: "logos:linkedin-icon",
 		},
@@ -22,7 +23,8 @@ function Aboute() {
 			icon: "logos:github-icon",
 		},
 		{
-			link: "fa:twitter-square",
+			id: 2,
+			link: "https://twitter.com/Noddyboi1",
 			icon: "fa:twitter-square",
 		},
 	];
@@ -58,7 +60,7 @@ function Aboute() {
 
 					<div className="links-socila">
 						{social.map((link) => (
-							<div className="socila-media">
+							<div className="socila-media" key={link.id}>
 								<a href={link.link} className="icon-name">
 									<Icon icon={link.icon} height="40px" color="#1a8cd8" />
 								</a>
