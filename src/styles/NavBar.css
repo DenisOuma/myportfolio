@@ -323,3 +323,45 @@
 	margin-top: 30px;
 	display: grid;
 }
+
+/* Project css starter */
+.card-pro {
+	margin-top: 30px;
+}
+.project-card {
+	border-radius: 5px;
+	width: 35%;
+	border: 1px solid #cccc;
+	cursor: pointer;
+}
+.project-card:hover {
+	box-shadow: rgba(240, 239, 239, 0.253) 0px 10px 20px,
+		rgba(236, 232, 232, 0.329) 0px 6px 6px;
+}
+.image-card > img {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.icon-logo {
+	height: 50px;
+	width: 50px;
+}
+.icon-logo > img {
+	border-radius: 50px;
+	object-fit: cover;
+}
+.card-description {
+	display: flex;
+	padding: 10px;
+	align-items: center;
+}
+.title-name {
+	margin-left: 15px;
+}
+.title-name > p {
+	color: #ccc;
+}
+.title-name > h2 {
+	font-weight: 800;
+	font-size: 20px;
+}
