@@ -1,14 +1,15 @@
 import React from "react";
 import "../../styles/NavBar.css";
 import { Icon } from "@iconify/react";
-import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
+import ExpandMoreRoundedIcon from "@mui/icons-material/ExpandMoreRounded";
+// import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
 import { Link } from "react-router-dom";
 function SideBarMenu() {
 	const [isShown, setIsShown] = React.useState(false);
-	const [about, setAbout] = React.useState(false);
-	const [project, setProject] = React.useState(false);
-	const [contact, setContact] = React.useState(false);
-	const [hobbies, setHobbies] = React.useState(false);
+	const [about, setAbout] = React.useState(true);
+	const [project, setProject] = React.useState(true);
+	const [contact, setContact] = React.useState(true);
+	const [hobbies, setHobbies] = React.useState(true);
 
 	const handleClick = (e) => {
 		setIsShown((current) => !current);
@@ -49,7 +50,7 @@ function SideBarMenu() {
 				<div className="navigation-menue">
 					<h2>EXPLORER</h2>
 					<div className="drop-open-menu">
-						<KeyboardArrowRightRoundedIcon />
+						<ExpandMoreRoundedIcon />
 						<h3 onClick={handleAbout}>About</h3>
 					</div>
 					{about && (
@@ -87,7 +88,7 @@ function SideBarMenu() {
 						</>
 					)}
 					<div className="drop-open-menu">
-						<KeyboardArrowRightRoundedIcon />
+						<ExpandMoreRoundedIcon />
 						<h3 onClick={handleProject}>Projects</h3>
 					</div>
 					{project && (
@@ -111,7 +112,7 @@ function SideBarMenu() {
 						</>
 					)}
 					<div className="drop-open-menu">
-						<KeyboardArrowRightRoundedIcon />
+						<ExpandMoreRoundedIcon />
 						<h3 onClick={handleContact}>Contact</h3>
 					</div>
 					{contact && (
@@ -123,7 +124,7 @@ function SideBarMenu() {
 						</>
 					)}
 					<div className="drop-open-menu">
-						<KeyboardArrowRightRoundedIcon />
+						<ExpandMoreRoundedIcon />
 						<h3 onClick={handleHobbies}>Misc</h3>
 					</div>
 					{hobbies && (

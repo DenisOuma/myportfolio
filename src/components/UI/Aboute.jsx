@@ -33,7 +33,7 @@ function Aboute() {
 		<div className="about-container">
 			<div className="container-info">
 				<div className="description-left">
-					<h1>Hi all, I'm Denis Ouma</h1>
+					<h1>Hi, I'm Denis Ouma</h1>
 					<Typewriter
 						words={[
 							"| Product Builder |",
