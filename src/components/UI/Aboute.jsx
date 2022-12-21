@@ -1,5 +1,6 @@
 import React from "react";
 import gif from "./video_new.gif";
+import img from "../../images/96__match_success_rate-removebg.png";
 import { Icon } from "@iconify/react";
 import { Typewriter } from "react-simple-typewriter";
 import { Button } from "@mui/material";
@@ -89,6 +90,7 @@ function Aboute() {
 					<img src={gif} alt="wfsdf" />
 				</div>
 			</div>
+			<img src={img} alt="" />
 		</div>
 	);
 }
