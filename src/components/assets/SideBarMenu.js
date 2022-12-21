@@ -1,16 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+// import React, { useRef } from 'react';
 import "../../styles/NavBar.css";
 import { Icon } from "@iconify/react";
 import ExpandMoreRoundedIcon from "@mui/icons-material/ExpandMoreRounded";
-// import KeyboardArrowRightRoundedIcon from "@mui/icons-material/KeyboardArrowRightRounded";
+import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import { Link } from "react-router-dom";
+import { IconButton } from "@mui/material";
 function SideBarMenu() {
 	const [isShown, setIsShown] = React.useState(false);
 	const [about, setAbout] = React.useState(true);
 	const [project, setProject] = React.useState(true);
 	const [contact, setContact] = React.useState(true);
 	const [hobbies, setHobbies] = React.useState(true);
+	const [isVisible, setIsVisible] = useState(true);
+	const [intervalId, setIntervalId] = useState(null);
 
+	useEffect(() => {
+		const id = setInterval(() => {
+			setIsVisible(isVisible);
+		}, 1000); // toggle every 1000ms (1 second)
+
+		setIntervalId(id);
+
+		return () => clearInterval(id);
+	}, [isVisible]);
+
+	const handleStopClick = () => {
+		clearInterval(intervalId);
+		setIsVisible(false);
+	};
 	const handleClick = (e) => {
 		setIsShown((current) => !current);
 	};
@@ -30,9 +48,30 @@ function SideBarMenu() {
 	return (
 		<div className="tagle-open">
 			<div className="side-bar-meny">
-				<div className="hover-effect">
+				{isVisible ? (
+					<div className="start-here">
+						<div className="callout top">
+							<div className="empty-btn">
+								<h1>Start Here</h1>
+								<IconButton
+									aria-label="delete"
+									size="small"
+									onClick={handleStopClick}
+								>
+									<CloseRoundedIcon style={{ color: "#fff" }} />
+								</IconButton>
+							</div>
+							<p>
+								To begin working on my vscode portfolio, click the document icon
+								to see more menu options(click close icon).
+							</p>
+						</div>
+					</div>
+				) : (
+					""
+				)}
+				<div className="hover-effect" onClick={handleClick}>
 					<Icon
-						onClick={handleClick}
 						className="icon-side-bar"
 						icon="fluent-mdl2:copy"
 						color="white"
