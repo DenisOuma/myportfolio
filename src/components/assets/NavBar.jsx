@@ -18,7 +18,7 @@ function Navbar() {
 								</Link>
 							</div>
 							<div className="nav-option">
-								<Link to="/myportfolio/experience" className="icon-name">
+								<Link to="/myportfolio/experience/" className="icon-name">
 									Experience
 								</Link>
 							</div>
@@ -28,12 +28,12 @@ function Navbar() {
 								</Link>
 							</div>
 							<div className="nav-option">
-								<Link to="/myportfolio/skills" className="icon-name">
+								<Link to="/myportfolio/projects/" className="icon-name">
 									Projects
 								</Link>
 							</div>
 							<div className="nav-option">
-								<Link to="/myportfolio/skills" className="icon-name">
+								<Link to="/myportfolio/contact/" className="icon-name">
 									Contact
 								</Link>
 							</div>

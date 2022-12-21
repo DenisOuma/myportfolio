@@ -117,10 +117,12 @@ function SideBarMenu() {
 					</div>
 					{contact && (
 						<>
-							<div className="options-menu">
-								<Icon icon="logos:google-gmail" color="gray" width="14" />
-								<p>Email.txt</p>
-							</div>
+							<Link to="/myportfolio/contact/" className="icon-name">
+								<div className="options-menu">
+									<Icon icon="logos:google-gmail" color="gray" width="14" />
+									<p>Email.txt</p>
+								</div>
+							</Link>
 						</>
 					)}
 					<div className="drop-open-menu">

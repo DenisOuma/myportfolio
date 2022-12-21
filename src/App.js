@@ -8,6 +8,7 @@ import Aboute from "./components/UI/Aboute";
 import Experience from "./components/UI/Experience";
 import Skills from "./components/UI/Skills";
 import Project from "./components/UI/Project";
+import Email from "./components/UI/Email";
 
 function App() {
 	return (
@@ -31,6 +32,7 @@ function App() {
 									path="/myportfolio/projects"
 									element={<Project />}
 								/>
+								<Route exact path="/myportfolio/contact" element={<Email />} />
 							</Routes>
 						</div>
 						<FooterBottom />

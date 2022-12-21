@@ -2,7 +2,8 @@ import React from "react";
 import gif from "./video_new.gif";
 import { Icon } from "@iconify/react";
 import { Typewriter } from "react-simple-typewriter";
-
+import { Button } from "@mui/material";
+import ArticleOutlinedIcon from "@mui/icons-material/ArticleOutlined";
 function Aboute() {
 	// const handleType = (count: number) => {
 	// 	// access word count number
@@ -71,6 +72,17 @@ function Aboute() {
 								</a>
 							</div>
 						))}
+					</div>
+					<div className="resume-link">
+						<a href="https://docs.google.com/document/d/1STa2jcHumX7j18OVvnRbjaS8m0vtUnom/edit?usp=sharing&ouid=101936001774365009771&rtpof=true&sd=true">
+							<Button
+								color="success"
+								className="resume-btn"
+								startIcon={<ArticleOutlinedIcon />}
+							>
+								Resume
+							</Button>
+						</a>
 					</div>
 				</div>
 				<div className="description-right">
