@@ -209,8 +209,10 @@
 	margin: 0 auto;
 }
 .about-container > img {
-	height: 95vh;
+	height: 90vh;
+	/* width: 30%; */
 	right: 0;
+	bottom: 0;
 	z-index: 0;
 	position: absolute;
 }
