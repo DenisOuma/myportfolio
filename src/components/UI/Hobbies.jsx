@@ -2,24 +2,24 @@ import React from "react";
 import { Icon } from "@iconify/react";
 function Hobbies() {
 	const hobbies = [
-		{ id: 0, hobbyIcon: "twemoji:video-game", hobbyTitle: "Gaming" },
 		{
-			id: 1,
+			id: 0,
+			hobbyIcon: "logos:blogger",
+			hobbyTitle: "Blogging",
+		},
+		{ id: 1, hobbyIcon: "twemoji:video-game", hobbyTitle: "Gaming" },
+		{
+			id: 2,
 			hobbyIcon: "eos-icons:machine-learning-outlined",
 			hobbyTitle: "Learning",
 		},
 		{
 			id: 3,
-			hobbyIcon: "logos:blogger",
-			hobbyTitle: "Blogging",
+			hobbyIcon: "logos:netflix",
+			hobbyTitle: "Netflix",
 		},
 		{
-			id: 3,
-			hobbyIcon: "noto:woman-swimming-medium-skin-tone",
-			hobbyTitle: "Swimming",
-		},
-		{
-			id: 2,
+			id: 4,
 			hobbyIcon: "noto:rocket",
 			hobbyTitle: "Startup",
 		},

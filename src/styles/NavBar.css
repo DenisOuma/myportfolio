@@ -456,7 +456,7 @@
 	width: 100%;
 }
 .inner-conatiner {
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 	padding: 30px;
 	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
@@ -467,13 +467,24 @@
 	font-size: 50px;
 }
 .hobby-lists {
-	margin-top: 20px;
-	width: 50%;
+	margin-top: 10px;
+	width: 55%;
 	display: flex;
 	justify-content: space-between;
 }
 .hobby-lists .hobbie {
 	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.hobby-lists .hobbie:hover {
+	background-color: #3c3c3c;
+}
+.hobby-lists .hobbie > h2 {
+	font-size: 16px;
+	font-weight: 700;
+	margin-top: 10px;
 }
 .blog-img {
 	background-color: #fff;
