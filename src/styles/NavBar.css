@@ -397,7 +397,8 @@
 	justify-content: space-between;
 }
 .email-left {
-	width: 40%;
+	width: 48%;
+	max-width: 1000px;
 }
 .email-left > h1 {
 	font-weight: 800;
