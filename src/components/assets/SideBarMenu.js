@@ -52,7 +52,7 @@ function SideBarMenu() {
 					<div className="start-here">
 						<div className="callout top">
 							<div className="empty-btn">
-								<h1>Start Here</h1>
+								<h1>👈 Start Here 👀</h1>
 								<IconButton
 									aria-label="delete"
 									size="small"
