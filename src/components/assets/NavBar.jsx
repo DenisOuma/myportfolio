@@ -38,7 +38,7 @@ function Navbar() {
 								</Link>
 							</div>
 							<div className="nav-option">
-								<Link to="/myportfolio/skills" className="icon-name">
+								<Link to="/myportfolio/hobbies" className="icon-name">
 									Hobbies
 								</Link>
 							</div>

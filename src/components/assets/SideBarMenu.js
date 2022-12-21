@@ -131,10 +131,12 @@ function SideBarMenu() {
 					</div>
 					{hobbies && (
 						<>
-							<div className="options-menu">
-								<Icon icon="vscode-icons:file-type-python" color="gray" />
-								<p>Hobbies.py</p>
-							</div>
+							<Link to="/myportfolio/hobbies" className="icon-name">
+								<div className="options-menu">
+									<Icon icon="vscode-icons:file-type-python" color="gray" />
+									<p>Hobbies.py</p>
+								</div>
+							</Link>
 							<div className="options-menu">
 								<Icon icon="vscode-icons:file-type-css" color="gray" />
 								<p>Blogs.css</p>

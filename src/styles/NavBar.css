@@ -450,3 +450,37 @@
 	width: 20%;
 	font-size: 16px !important;
 }
+
+/* working on the blog css */
+.hobbies-container {
+	width: 100%;
+}
+.inner-conatiner {
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.inner-conatiner > h1 {
+	color: #007acc;
+	font-weight: 800;
+	font-size: 50px;
+}
+.hobby-lists {
+	margin-top: 20px;
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+}
+.hobby-lists .hobbie {
+	text-align: center;
+}
+.blog-img {
+	background-color: #fff;
+	width: 100px;
+	/* margin: 0 auto; */
+	justify-content: center;
+	display: flex;
+	border-radius: 5px;
+	padding: 10px;
+}

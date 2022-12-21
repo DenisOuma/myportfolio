@@ -9,6 +9,7 @@ import Experience from "./components/UI/Experience";
 import Skills from "./components/UI/Skills";
 import Project from "./components/UI/Project";
 import Email from "./components/UI/Email";
+import Hobbies from "./components/UI/Hobbies";
 
 function App() {
 	return (
@@ -33,6 +34,11 @@ function App() {
 									element={<Project />}
 								/>
 								<Route exact path="/myportfolio/contact" element={<Email />} />
+								<Route
+									exact
+									path="/myportfolio/hobbies"
+									element={<Hobbies />}
+								/>
 							</Routes>
 						</div>
 						<FooterBottom />
