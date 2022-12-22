@@ -74,7 +74,7 @@ function Aboute() {
 						))}
 					</div>
 					<div className="resume-link">
-						<a href="https://docs.google.com/document/d/1ZXym4XeQcpVPJvNbv9OXcaprjX4eR-jD/edit">
+						<a href="https://drive.google.com/drive/u/0/my-drive">
 							<Button
 								color="success"
 								className="resume-btn"
