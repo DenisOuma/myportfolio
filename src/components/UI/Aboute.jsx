@@ -53,11 +53,10 @@ function Aboute() {
 						className="auto-type"
 					/>
 					<p>
-						I'm passionate Front-End engineer with comprehensive skills in
-						NodeJS and React, Ruby on Rails. Proficient in Javascript and
-						Python/Flask. Also a fast and dedicated learner with a growth
-						mindset, constantly looking to develop new skills and expand
-						technical knowledge.
+						Motivated and dependable full-stack developer with comprehensive
+						skills in Node JS and React. Proficient in Ruby and Ruby on Rails.
+						Also a fast and dedicated learner with a growth mindset, constantly
+						looking to develop new skills and expand technical knowledge.
 					</p>
 
 					<div className="links-socila">
@@ -75,7 +74,7 @@ function Aboute() {
 						))}
 					</div>
 					<div className="resume-link">
-						<a href="https://docs.google.com/document/d/1STa2jcHumX7j18OVvnRbjaS8m0vtUnom/edit?usp=sharing&ouid=101936001774365009771&rtpof=true&sd=true">
+						<a href="https://docs.google.com/document/d/1ZXym4XeQcpVPJvNbv9OXcaprjX4eR-jD/edit">
 							<Button
 								color="success"
 								className="resume-btn"
