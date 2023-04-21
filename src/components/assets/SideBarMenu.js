@@ -90,10 +90,9 @@ function SideBarMenu() {
 			{isShown && (
 				<div className="navigation-menue">
 					<h2>EXPLORER</h2>
-					<div className="drop-open-menu">
+					<div className="drop-open-menu" onClick={handleAbout}>
 						{about ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
-
-						<h3 onClick={handleAbout}>
+						<h3>
 							<Icon icon="vscode-icons:folder-type-src" height="20" />
 							<span>About</span>
 						</h3>
@@ -132,10 +131,10 @@ function SideBarMenu() {
 							</Link>
 						</>
 					)}
-					<div className="drop-open-menu">
+					<div className="drop-open-menu" onClick={handleProject}>
 						{project ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
 
-						<h3 onClick={handleProject}>
+						<h3>
 							<Icon icon="vscode-icons:folder-type-component" height="20" />
 							<span>Projects</span>
 						</h3>
@@ -160,9 +159,9 @@ function SideBarMenu() {
 							</div>
 						</>
 					)}
-					<div className="drop-open-menu">
+					<div className="drop-open-menu" onClick={handleContact}>
 						{contact ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
-						<h3 onClick={handleContact}>
+						<h3>
 							<Icon icon="vscode-icons:folder-type-style" height="20" />
 							<span>Contact</span>
 						</h3>
@@ -177,9 +176,9 @@ function SideBarMenu() {
 							</Link>
 						</>
 					)}
-					<div className="drop-open-menu">
+					<div className="drop-open-menu" onClick={handleHobbies}>
 						{hobbies ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
-						<h3 onClick={handleHobbies}>
+						<h3>
 							<Icon icon="vscode-icons:folder-type-images" height="20" />
 							<span>Misc</span>
 						</h3>
