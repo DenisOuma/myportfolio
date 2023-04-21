@@ -10,8 +10,8 @@ import { IconButton } from "@mui/material";
 
 function SideBarMenu() {
 	const [isShown, setIsShown] = React.useState(false);
-	const [about, setAbout] = React.useState(true);
-	const [project, setProject] = React.useState(true);
+	const [about, setAbout] = React.useState(false);
+	const [project, setProject] = React.useState(false);
 	const [contact, setContact] = React.useState(true);
 	const [hobbies, setHobbies] = React.useState(true);
 	const [isVisible, setIsVisible] = useState(true);
