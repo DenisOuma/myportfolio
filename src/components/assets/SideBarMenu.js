@@ -4,6 +4,7 @@ import "../../styles/NavBar.css";
 import { Icon } from "@iconify/react";
 import ExpandMoreRoundedIcon from "@mui/icons-material/ExpandMoreRounded";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
+import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
 import { Link } from "react-router-dom";
 import { IconButton } from "@mui/material";
 function SideBarMenu() {
@@ -89,7 +90,7 @@ function SideBarMenu() {
 				<div className="navigation-menue">
 					<h2>EXPLORER</h2>
 					<div className="drop-open-menu">
-						<ExpandMoreRoundedIcon />
+						{about ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
 						<h3 onClick={handleAbout}>About</h3>
 					</div>
 					{about && (
@@ -127,7 +128,8 @@ function SideBarMenu() {
 						</>
 					)}
 					<div className="drop-open-menu">
-						<ExpandMoreRoundedIcon />
+						{project ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
+
 						<h3 onClick={handleProject}>Projects</h3>
 					</div>
 					{project && (
@@ -151,7 +153,7 @@ function SideBarMenu() {
 						</>
 					)}
 					<div className="drop-open-menu">
-						<ExpandMoreRoundedIcon />
+						{contact ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
 						<h3 onClick={handleContact}>Contact</h3>
 					</div>
 					{contact && (
@@ -165,7 +167,7 @@ function SideBarMenu() {
 						</>
 					)}
 					<div className="drop-open-menu">
-						<ExpandMoreRoundedIcon />
+						{hobbies ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
 						<h3 onClick={handleHobbies}>Misc</h3>
 					</div>
 					{hobbies && (
