@@ -7,6 +7,7 @@ import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
 import { Link } from "react-router-dom";
 import { IconButton } from "@mui/material";
+
 function SideBarMenu() {
 	const [isShown, setIsShown] = React.useState(false);
 	const [about, setAbout] = React.useState(true);
@@ -91,7 +92,11 @@ function SideBarMenu() {
 					<h2>EXPLORER</h2>
 					<div className="drop-open-menu">
 						{about ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
-						<h3 onClick={handleAbout}>About</h3>
+
+						<h3 onClick={handleAbout}>
+							<Icon icon="vscode-icons:folder-type-src" height="20" />
+							<span>About</span>
+						</h3>
 					</div>
 					{about && (
 						<>
@@ -130,7 +135,10 @@ function SideBarMenu() {
 					<div className="drop-open-menu">
 						{project ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
 
-						<h3 onClick={handleProject}>Projects</h3>
+						<h3 onClick={handleProject}>
+							<Icon icon="vscode-icons:folder-type-component" height="20" />
+							<span>Projects</span>
+						</h3>
 					</div>
 					{project && (
 						<>
@@ -154,7 +162,10 @@ function SideBarMenu() {
 					)}
 					<div className="drop-open-menu">
 						{contact ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
-						<h3 onClick={handleContact}>Contact</h3>
+						<h3 onClick={handleContact}>
+							<Icon icon="vscode-icons:folder-type-style" height="20" />
+							<span>Contact</span>
+						</h3>
 					</div>
 					{contact && (
 						<>
@@ -168,7 +179,10 @@ function SideBarMenu() {
 					)}
 					<div className="drop-open-menu">
 						{hobbies ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
-						<h3 onClick={handleHobbies}>Misc</h3>
+						<h3 onClick={handleHobbies}>
+							<Icon icon="vscode-icons:folder-type-images" height="20" />
+							<span>Misc</span>
+						</h3>
 					</div>
 					{hobbies && (
 						<>
