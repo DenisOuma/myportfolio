@@ -93,7 +93,7 @@ function SideBarMenu() {
 					<div className="drop-open-menu" onClick={handleAbout}>
 						{about ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
 						<h3>
-							<Icon icon="vscode-icons:folder-type-src" height="20" />
+							<Icon icon="vscode-icons:folder-type-src" height="16" />
 							<span>About</span>
 						</h3>
 					</div>
@@ -135,7 +135,7 @@ function SideBarMenu() {
 						{project ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
 
 						<h3>
-							<Icon icon="vscode-icons:folder-type-component" height="20" />
+							<Icon icon="vscode-icons:folder-type-component" height="16" />
 							<span>Projects</span>
 						</h3>
 					</div>
@@ -162,7 +162,7 @@ function SideBarMenu() {
 					<div className="drop-open-menu" onClick={handleContact}>
 						{contact ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
 						<h3>
-							<Icon icon="vscode-icons:folder-type-style" height="20" />
+							<Icon icon="vscode-icons:folder-type-style" height="16" />
 							<span>Contact</span>
 						</h3>
 					</div>
@@ -170,7 +170,7 @@ function SideBarMenu() {
 						<>
 							<Link to="/myportfolio/contact/" className="icon-name">
 								<div className="options-menu">
-									<Icon icon="logos:google-gmail" color="gray" width="14" />
+									<Icon icon="logos:google-gmail" color="gray" width="13" />
 									<p>Email.txt</p>
 								</div>
 							</Link>
@@ -179,7 +179,7 @@ function SideBarMenu() {
 					<div className="drop-open-menu" onClick={handleHobbies}>
 						{hobbies ? <ExpandMoreRoundedIcon /> : <ChevronRightRoundedIcon />}
 						<h3>
-							<Icon icon="vscode-icons:folder-type-images" height="20" />
+							<Icon icon="vscode-icons:folder-type-images" height="16" />
 							<span>Misc</span>
 						</h3>
 					</div>

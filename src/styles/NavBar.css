@@ -178,9 +178,12 @@
 .drop-open-menu {
 	display: flex;
 	align-items: center;
-	font-size: 14px;
+	font-size: 12px;
 	cursor: pointer;
 	padding: 0.3rem;
+}
+.drop-open-menu > h3 > span {
+	margin-bottom: 5px;
 }
 .drop-open-menu:hover {
 	color: #fff;
@@ -211,7 +214,7 @@
 }
 .options-menu > p {
 	margin-left: 20px;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 /* Working on the about section */
