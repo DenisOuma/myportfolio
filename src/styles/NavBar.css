@@ -97,7 +97,7 @@
 	margin-left: 15px;
 }
 .nav-options .nav-option {
-	font-size: 14px;
+	font-size: 12px;
 	margin-right: 9px;
 	padding: 2px;
 	cursor: pointer;
@@ -115,7 +115,7 @@
 /* styling the sidebar menu */
 .side-bar-meny {
 	background-color: #333333;
-	width: 65px;
+	width: 49px;
 	height: 95vh;
 	position: relative;
 }
