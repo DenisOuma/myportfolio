@@ -602,3 +602,8 @@
 	border-radius: 5px;
 	padding: 10px;
 }
+
+/* icon size */
+.css-i4bv87-MuiSvgIcon-root {
+	width: 1.3rem !important;
+}
