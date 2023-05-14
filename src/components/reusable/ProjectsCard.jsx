@@ -1,13 +1,9 @@
 import React from "react";
-
-function ProjectsCard() {
+function ProjectsCard(props) {
 	return (
-		<div className="project-card">
+		<div className="project-card w-500">
 			<div className="image-card">
-				<img
-					src="https://github.com/DenisOuma/team-project/raw/main/images/contacts.png"
-					alt=""
-				/>
+				<img src={props.img} alt="" className="w-full h-full" />
 			</div>
 			<div className="card-description">
 				<div className="icon-logo">
@@ -17,8 +13,8 @@ function ProjectsCard() {
 					/>
 				</div>
 				<div className="title-name">
-					<h2>Code Keeper</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+					<h2>{props.name}</h2>
+					<p>{props.description}</p>
 				</div>
 			</div>
 		</div>

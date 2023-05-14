@@ -440,6 +440,7 @@
 	width: 35%;
 	border: 1px solid #cccc;
 	cursor: pointer;
+	width: 450px;
 }
 .project-card:hover {
 	box-shadow: rgba(240, 239, 239, 0.253) 0px 10px 20px,
