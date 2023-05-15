@@ -1,12 +1,15 @@
 import jumiaClone from "../images/jumia-clone.png";
 import twitter from "../images/twitter.png";
-import covidtracker from "../images/covid19.png";
+import covidtracker from "../images/Screenshot from 2023-05-15 08-00-44.png";
+import swappay from "../images/mswap.png";
+import moringa from "../images/moringa.jpeg";
 export const data = [
 	{
 		id: 1,
 		name: "Jumia Clone",
 		img: jumiaClone,
-		description: "This is the landing page for jumia clone",
+		description:
+			"This is the landing page for jumia clone website with 99% accuracy.",
 		githubLINK: "https://github.com/DenisOuma/jumia-clone",
 		liveLink: "https://jumia-clone.onrender.com/",
 	},
@@ -15,13 +18,14 @@ export const data = [
 		img: twitter,
 		name: "Twitter Clone",
 		description:
-			"This is the landing page for my Twitter clone project, designed to demonstrate the importance of accuracy when building applications.",
+			"This is the landing page for my Twitter, demonstarating my accuracy when it comes to designing applications.",
 		githubLINK: "https://github.com/DenisOuma/jumia-clone",
 		liveLink: "https://denisouma.github.io/-twitter-clone/",
 	},
 	{
 		id: 3,
 		img: covidtracker,
+		name: "Covid 19 Statistics",
 		description:
 			"Covid 19 statistics filterable and searchable by country and hourly graph showing cases, deaths and tests.",
 		githubLINK: "https://github.com/DenisOuma/jumia-clone",
@@ -29,23 +33,21 @@ export const data = [
 	},
 	{
 		id: 4,
-		img: "../images/jumia-clone.png",
-		description: "This is the landing page for jumia clone",
+		img: swappay,
+		name: "SwapPay",
+		description:
+			"My latest project under development of swappay. a payment system using mpesa and QR code.",
 		githubLINK: "https://github.com/DenisOuma/jumia-clone",
-		liveLink: "github-portfolio.vercel.app",
+		liveLink: "https://m-swap.onrender.com/login",
 	},
 	{
 		id: 5,
-		img: "../images/jumia-clone.png",
-		description: "This is the landing page for jumia clone",
+		name: "Moringa Portal",
+		img: moringa,
+		description:
+			"This is Moringa school Portal for all the students and alumnies to connect and interact.",
 		githubLINK: "https://github.com/DenisOuma/jumia-clone",
-		liveLink: "github-portfolio.vercel.app",
-	},
-	{
-		id: 6,
-		img: "../images/jumia-clone.png",
-		description: "This is the landing page for jumia clone",
-		githubLINK: "https://github.com/DenisOuma/jumia-clone",
-		liveLink: "github-portfolio.vercel.app",
+		liveLink:
+			"https://moringa-alumni-1k22c13br-iamkibeh.vercel.app/hire-talent",
 	},
 ];
