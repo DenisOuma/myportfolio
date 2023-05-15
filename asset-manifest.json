@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.8857c300.css",
-    "main.js": "/myportfolio/static/js/main.3e08233c.js",
+    "main.js": "/myportfolio/static/js/main.ef13de34.js",
     "static/media/video_new.gif": "/myportfolio/static/media/video_new.ec194ec866e07bf8ddf8.gif",
     "static/media/96__match_success_rate-removebg.png": "/myportfolio/static/media/96__match_success_rate-removebg.45321dec4ecef98de9af.png",
+    "static/media/mswap.png": "/myportfolio/static/media/mswap.b75195c59ce4d9a052d9.png",
     "static/media/jumia-clone.png": "/myportfolio/static/media/jumia-clone.51d464b571125a770522.png",
     "static/media/twitter.png": "/myportfolio/static/media/twitter.d8a6be7240b428907165.png",
-    "static/media/covid19.png": "/myportfolio/static/media/covid19.a7fbf09659e5e43d66d4.png",
+    "static/media/Screenshot from 2023-05-15 08-00-44.png": "/myportfolio/static/media/Screenshot from 2023-05-15 08-00-44.6566980e73e190a37b49.png",
+    "static/media/moringa.jpeg": "/myportfolio/static/media/moringa.43704a798484f3fe563e.jpeg",
     "index.html": "/myportfolio/index.html",
     "main.8857c300.css.map": "/myportfolio/static/css/main.8857c300.css.map",
-    "main.3e08233c.js.map": "/myportfolio/static/js/main.3e08233c.js.map"
+    "main.ef13de34.js.map": "/myportfolio/static/js/main.ef13de34.js.map"
   },
   "entrypoints": [
     "static/css/main.8857c300.css",
-    "static/js/main.3e08233c.js"
+    "static/js/main.ef13de34.js"
   ]
 }
